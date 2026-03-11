@@ -1,0 +1,24 @@
+{
+  "name": "api-traffic_lighter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "develop": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "api-traffic_lighter": "file:",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "leaflet": "^1.9.4",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.15"
+  }
+}

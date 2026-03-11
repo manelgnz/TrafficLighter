@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "connections.h": "c",
+        "mysql.h": "c",
+        "tasks.h": "c",
+        "utils.h": "c",
+        "agent.h": "c",
+        "database.h": "c"
+    }
+}

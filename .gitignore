@@ -1,0 +1,14 @@
+# Node & Angular
+node_modules/
+.angular/
+dist/
+.env
+
+# C / Compilación
+*.o
+*.out
+bin/
+
+# Otros
+.DS_Store
+Thumbs.db
