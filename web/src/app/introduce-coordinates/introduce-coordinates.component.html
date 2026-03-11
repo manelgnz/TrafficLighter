@@ -1,0 +1,18 @@
+<div class="form-container">
+  <form (submit)="onSubmit($event)">
+    <label for="initialX">Initial Coordinate X:</label>
+    <input type="text" id="initialX" name="initialX" maxlength="1" pattern="[0-9]" required (input)="validateInput($event)" autocomplete="off"> 
+    
+    <label for="initialY">Initial Coordinate Y:</label>
+    <input type="text" id="initialY" name="initialY" maxlength="1" pattern="[0-9]" required (input)="validateInput($event)" autocomplete="off">
+    
+    <label for="finalX">Final Coordinate X:</label>
+    <input type="text" id="finalX" name="finalX" maxlength="1" pattern="[0-9]" required (input)="validateInput($event)" autocomplete="off">
+    
+    <label for="finalY">Final Coordinate Y:</label>
+    <input type="text" id="finalY" name="finalY" maxlength="1" pattern="[0-9]" required (input)="validateInput($event)" autocomplete="off">
+    
+    <button type="submit">Set Route</button>
+  </form>
+</div>
+<div id="map"></div>

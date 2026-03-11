@@ -1,0 +1,12 @@
+<div class="container">
+  <nav>
+    <ul>
+      <li><a href="#" (click)="navigate($event, 'introduce-coordinates')">Introduce Coordinates</a></li>
+      <li><a href="#" (click)="navigate($event, 'map')">View Map</a></li>
+      <li><a href="#" (click)="navigate($event, 'best-times')">View Times</a></li>
+    </ul>
+  </nav>
+  <div id="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

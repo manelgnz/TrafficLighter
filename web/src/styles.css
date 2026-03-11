@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham-Font/Gotham-Light.otf') format('truetype');
+}
+@font-face {
+    font-family: 'GothamThin';
+    src: url('/fonts/Gotham-Font/Gotham-Thin.otf') format('truetype');
+}
+body, html {
+    font-family: 'Gotham', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
